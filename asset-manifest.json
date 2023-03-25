@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sahejdeep-singh/static/css/main.183aff73.css",
+    "main.js": "/sahejdeep-singh/static/js/main.2de07a3e.js",
+    "static/js/787.372f5d56.chunk.js": "/sahejdeep-singh/static/js/787.372f5d56.chunk.js",
+    "static/media/Sahejdeep-FullStackDeveloper.pdf": "/sahejdeep-singh/static/media/Sahejdeep-FullStackDeveloper.b5bb7475f120462fd8b0.pdf",
+    "index.html": "/sahejdeep-singh/index.html",
+    "main.183aff73.css.map": "/sahejdeep-singh/static/css/main.183aff73.css.map",
+    "main.2de07a3e.js.map": "/sahejdeep-singh/static/js/main.2de07a3e.js.map",
+    "787.372f5d56.chunk.js.map": "/sahejdeep-singh/static/js/787.372f5d56.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.183aff73.css",
+    "static/js/main.2de07a3e.js"
+  ]
+}
