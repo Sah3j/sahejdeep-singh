@@ -1,0 +1,8 @@
+.modal-background {
+    width: 100vh;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: antiquewhite;
+}

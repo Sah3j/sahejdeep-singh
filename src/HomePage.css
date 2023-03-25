@@ -1,0 +1,67 @@
+.website-layout {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "about-section" "image-section";
+    animation: slide 0.7s linear;
+  }
+  
+  @keyframes slide {
+    from {
+        grid-template-columns: 0% 100%;
+    }
+    to {
+        grid-template-columns: 30% 70%;
+    }
+  }
+  
+  .about-section {
+    grid-area: "about-section";
+    background-image: linear-gradient(to bottom left, var(--background-light-1), var(--background-light-2));
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .image-section {
+    grid-area: "image-section";
+    background-image: linear-gradient(to bottom left, var(--background-dark-1), var(--background-dark-2));
+    height: 100vh;
+  }
+  
+  h1 {
+    color: var(--primary-text-color);
+  }
+  
+  p {
+    color: var(--secondary-text-color);
+  }
+  
+  @media (max-width: 1290px) {
+    .website-layout {
+      grid-template-columns: 35% 65%;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .website-layout {
+      display: flex;
+      flex-direction: column-reverse;
+      position: relative;
+    }
+  
+    .about-section {
+      grid-area: "about-section";
+      background-image: none;
+      display: flex;
+      justify-content: flex-end;
+      position: absolute;
+      z-index: 3;
+    }
+    
+    .image-section {
+      grid-area: "image-section";
+      background-image: linear-gradient(to bottom left, var(--card-color-1), var(--card-color-2));
+    }
+  
+  }
+  
