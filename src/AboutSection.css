@@ -83,6 +83,10 @@
         background-size: cover;
     }
 
+    .about-section-text {
+        padding-bottom: 4em;
+    }
+
     .about-section-text h3{
         color: var(--primary-text-color-dark);
         font-size: x-large;

@@ -14,6 +14,10 @@
     margin-left: 2em;
 }
 
+.project-3 {
+    margin-left: 2em;
+}
+
 @media (max-width: 640px) {
     .projects-page {
         background-color: var(--card-color-2);
